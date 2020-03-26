@@ -3,7 +3,7 @@
 /*--------------------------------------Colours */
 
 .bg-color-name-title{
-    background-color: #fafafa;
+    background-color: #f6f6f6;
 }
 
 .ui-menu-color-home{
@@ -241,6 +241,15 @@ a:hover {
   overflow: hidden;
   background-color:#333;
   position: relative;
+}
+
+.topnav h3{
+   font-weight: 50;
+}
+.topnav h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 25;
+    color: rgb(70, 72, 92);
 }
 
 .topnav #myLinks {
