@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------Colours */
+
+.bg-color-name-title{
+    background-color: #fafafa;
+}
+
+.ui-menu-color-home{
+    background-color: #e67e22;
+
+}
+.ui-menu-color-renaissance{
+    background-color: #966a0b;
+
+}
+.ui-menu-color-baroque{
+    background-color: #38361e;
+}
+.ui-menu-color-classical{
+background-color: #525252
+}
+.ui-menu-color-romantic{
+    background-color: #8d5151
+
+}
+.ui-menu-color-century{
+    background-color: #523335
+    
+}
+.bg-color-timeline-genres{
+    background-color: #fafafa;
+}
+.bg-color-content{
+    background-color: #943030;
+}
+.bg-color-contact{
+    background-color:#fff;
+}
+/*--------------------------------------Special paddigns/Margings/Text */
+h1,h2,h3,h4,h5 {
+    margin: 0;
+} 
+
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.timeline-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------Heading */
+
+.mobile-container{
+    display: none;
+}
+
+.header{
+    margin:0;
+}
+.heading{
+    margin-left: 70px;
+}
+.logo {
+    background:url("../images/orchestra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.history{
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size:46px;
+    margin-top:70px;
+    color:#9c3a3a;
+    margin-bottom: 20px;
+}
+.title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size:30px;
+    margin-top:20px;
+    margin-bottom: 100px;
+    color: rgb(70, 72, 92);
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.menucontainer{
+    font-size: 0;
+}
+#nav{
+    margin: 0;
+}
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
+.menuperiod{
+    height: 80px;
+    text-align: center;
+    padding: 0;
+    
+}
+.menuperiod a{
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 80px;
+}
+
+.menuperiod span{
+
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+/*--------------------------------------Footer */
+
+footer{
+    background-color: #f5f5f5;
+    min-height: 80px;
+    margin: 0;
+    }
+  
+
+
+ .social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding:12px 0px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background:#8f8f8f;
+    transition:all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+ }  
+.pos-fixed{
+    position: fixed;
+}
+/*--------------------------------------Section */
+
+.period-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.timeline-item p{
+    padding: 0;
+    margin: 0;
+}
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #b14747;
+}
+a:hover {
+  background-color: rgb(120, 148, 196);
+}
+/*--------------------------------------Contact Form  */
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+/*--------------------------------------Media Queries  */
+@media(max-width:600px){
+    /* Style the navigation menu */
+
+    .desktop-view{
+        display: none;
+    }
+   /* body {
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+.mobile-container {
+  display: initial;
+  max-width: 480px;
+  margin: auto;
+  background-color:#555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+  font-family: "Exo",sans-serif;
+  }
+
+.topnav {
+  overflow: hidden;
+  background-color:#333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #9c3a3a;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #fafafa;
+  color: #9c3a3a;
+}
+
+.active {
+  background-color: #fafafa;
+    color:#9c3a3a;
+}
+
+}

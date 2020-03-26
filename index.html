@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/CSS/style.css" type="text/css">
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+    <title>Document</title>
+</head>
+<body>
+<header>
+	<div class="row no-gutters">
+		<a href="index.html" class="col-md-4 logo">
+		</a>
+		<div class="col-md-8 desktop-view">
+			<div class="row no-gutters bg-color-name-title">
+				<div class="col heading">
+					<h1 class="history">The History of Classic Music </h1>
+                    <h2 class="title">The place to understand period and genres!</h2>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col">
+					<ul id="nav" class="list-inline menucontainer">
+						<li class="col-sm-4 ui-menu-color-home list-inline-item menuperiod">
+							<a href="index.html"
+								class="hvr-sweep-to-bottom"><span>Home</span>
+							</a>
+						</li>
+						<li class="col-sm-4 ui-menu-color-renaissance list-inline-item menuperiod">
+							<a href="timeline.html"
+								class="hvr-bounce-to-right"><span>TImeline</span>
+							</a>
+						</li>
+						<li class=" col-sm-4 ui-menu-color-baroque list-inline-item menuperiod">
+							<a href="contact.html"
+								class="hvr-radial-in"><span>Contact</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">
+  <h3> The History of Classic Music </h3> </a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+</header>
+   
+
+</body>
+</html>
